@@ -10,6 +10,7 @@ var time = document.querySelector('.time')
 var body = document.querySelector('body')
 
 
+
 async function weatherDashboard () {
     let capitalSearch = search.value.trim()
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${capitalSearch}&appid=cb8d857e9528680474d1a7a90b239fba`
@@ -27,7 +28,7 @@ async function weatherDashboard () {
     time.textContent = new Date().toLocaleString('us')
     body.setAttribute('class','warm')
     console.log(body)
-    if(temp < 33) {
+    if(temp <= 35) {
         body.setAttribute('class','cold')
     } else {
         body.setAttribute('class','warm')
