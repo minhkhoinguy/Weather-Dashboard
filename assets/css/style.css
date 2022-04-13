@@ -14,7 +14,7 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
 }
 
 #weather {
-    width: 350px;
+    width: 60%;
     border-radius: 10px;
     padding: 30px 20px;
     background: url(https://cdn.hovia.com/app/uploads/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural.jpg) no-repeat center/cover;
@@ -30,7 +30,7 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
 }
 
 .search {
-    width: 308px;
+    width: 100%;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -39,6 +39,7 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
     box-shadow: 0 4px rgba(0,0,0,0.2);
     transition: 0.4s;
     font-size: 19px;
+
 }
 
 .search:focus {
