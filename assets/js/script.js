@@ -12,7 +12,7 @@ var body = document.querySelector('body')
 
 async function weatherDashboard () {
     let capitalSearch = search.value.trim()
-    let apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=${capitalSearch}&appid=cb8d857e9528680474d1a7a90b239fba'
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${capitalSearch}&appid=cb8d857e9528680474d1a7a90b239fba`
 
     let data = await fetch(apiUrl).then(res=> res.json())
     console.log(data);
