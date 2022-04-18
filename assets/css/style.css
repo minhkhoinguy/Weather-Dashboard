@@ -101,3 +101,23 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
 .more-desc div i {
     margin: 10px 0;
 }
+
+@media screen and (max-width: 900px) {
+    #weather {
+        min-width: 90%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .search {
+        min-width: 50%;
+    }
+
+    .temperature {
+        max-width: 90%;
+    }
+
+    .more-desc {
+        max-width: 90%;
+    }
+}
