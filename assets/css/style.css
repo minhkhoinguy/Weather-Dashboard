@@ -10,7 +10,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https://cdn.hovia.com/app/uploads/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural.jpg) no-repeat center/cover;
+background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https://images.pexels.com/photos/1843716/pexels-photo-1843716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center/cover;
 }
 
 #weather {
@@ -18,7 +18,7 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
     height: 80%;
     border-radius: 10px;
     padding: 30px 20px;
-    background: url(https://cdn.hovia.com/app/uploads/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural.jpg) no-repeat center/cover;
+    background: url(https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +26,11 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
 }
 
 .cold #weather {
-    background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https://cdn.hovia.com/app/uploads/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural.jpg) no-repeat center/cover;
+    background: url(https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center/cover;
 }
 
 .warm #weather {
-    background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https://i.redd.it/kxoq7grit9281.jpg) no-repeat center/cover;
+    background: url(https://images.pexels.com/photos/3218837/pexels-photo-3218837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center/cover;
 }
 
 .search {
@@ -115,9 +115,12 @@ background: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(https:
 
     .temperature {
         max-width: 90%;
+        display: flex;
+        justify-content: center;
     }
 
     .more-desc {
-        max-width: 90%;
+        display: flex;
+        justify-content: center;
     }
 }
