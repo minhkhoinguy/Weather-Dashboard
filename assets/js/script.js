@@ -22,17 +22,18 @@ async function weatherDashboard () {
     visibility.textContent = data.visibility + 'm'
     wind.textContent = data.wind.speed + 'm/s'
     humidity.textContent = data.main.humidity + '%'
-    let temp = Math.round (data.main.temp - 273.15)*1.8 + 32 + '°F'
-    value.textContent = temp
-    shortDesc.textContent = data.weather[0] ? data.weather[0].main: ''
-    time.textContent = new Date().toLocaleString('us')
-    body.setAttribute('class','warm')
-    console.log(body)
-    if(temp <= 35) {
+    let temp = Math.round((data.main.temp - 273.15)*1.8 + 32) 
+    if(temp < 32) {
         body.setAttribute('class','cold')
     } else {
         body.setAttribute('class','warm')
     }
+    temp += '°F'
+    value.textContent = temp
+    shortDesc.textContent = data.weather[0] ? data.weather[0].main: ''
+    time.textContent = new Date().toLocaleString('us')
+    console.log(temp)
+
 
 }
 search.addEventListener('keypress', function(e){
