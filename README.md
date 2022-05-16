@@ -67,4 +67,4 @@ Contact me with the link below if you have any questions!
 
 [Email](mailto:minhkhoinguy@gmail.com)
 
-[Linkln](https://www.linkedin.com/in/minhkhoi-nguyen-3a8b82237/)
+[LinkedIn](https://www.linkedin.com/in/minhkhoi-nguyen-3a8b82237/)
